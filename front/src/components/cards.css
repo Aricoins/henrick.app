@@ -1,0 +1,21 @@
+.lista{
+max-width: 900px;  
+display: grid;
+grid-template-columns:  25% 25% 25% 25%; 
+padding: 5%;
+height: 22em;
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 25%;
+
+@media only screen and (max-width : 600px) {
+border-color: aliceblue;
+margin-top: 40%;
+ border: 20%;
+ display: grid;
+ grid-template-columns: 80%; 
+ grid-template-rows: 80%;
+ justify-content: center
+ 
+}
+}
